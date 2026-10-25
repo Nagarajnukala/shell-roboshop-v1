@@ -6,7 +6,8 @@
   domain_name="daws92s.store"
   hosted_zone_id="Z054083339O52FJY9B6IB"
   
-  for instance in $a
+  for instance in $@
   do 
-     echo "Creating instance $instance"
-done
+        echo "Creating instance: $instance"
+  done
+
